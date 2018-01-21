@@ -7,7 +7,7 @@ message_0 = "Riding a " + transport[0] + " is a lot of fun" + "!"
 message_1 = "A " + transport[1] + " is ok" + ", " + "I guess" + "."
 message_2 = "Would it not be awesome to have a " + transport[2] + "?"
 message_3 = "Marty rides a " + transport[3] + "."
-message_4 = "How long have you been inside a " + transport[4] + "?"
+message_4 = "How long have you been inside an " + transport[4] + "?"
 message_5 = "Aladdin flies a " + transport[5] + "."
 
 print(message_0)

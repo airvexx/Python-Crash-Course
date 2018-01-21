@@ -32,12 +32,12 @@ guests.insert(2, 'frank herbert')
 print(guests)
 
 guests = ['hagbard celine', 'robert anton wilson', 'frank herbert', 'aleister crowley', 'lao tzu', 'carl sagan']
-message_0 = "Hello, " + guests[0].title() + "! " + "Are you still avaibile for dinner tonight " + "?"
-message_1 = "Hello, " + guests[1].title() + "! " + "Are you still avaibile for dinner tonight " + "?"
-message_2 = "Hello, " + guests[2].title() + "! " + "Are you still avaibile for dinner tonight " + "?"
-message_3 = "Hello, " + guests[3].title() + "! " + "Are you still avaibile for dinner tonight " + "?"
-message_4 = "Hello, " + guests[4].title() + "! " + "Are you still avaibile for dinner tonight " + "?"
-message_5 = "Hello, " + guests[5].title() + "! " + "Are you still avaibile for dinner tonight " + "?"
+message_0 = "Hello, " + guests[0].title() + "! " + "Are you still avaibile for dinner tonight" + "?"
+message_1 = "Hello, " + guests[1].title() + "! " + "Are you still avaibile for dinner tonight" + "?"
+message_2 = "Hello, " + guests[2].title() + "! " + "Are you still avaibile for dinner tonight" + "?"
+message_3 = "Hello, " + guests[3].title() + "! " + "Are you still avaibile for dinner tonight" + "?"
+message_4 = "Hello, " + guests[4].title() + "! " + "Are you still avaibile for dinner tonight" + "?"
+message_5 = "Hello, " + guests[5].title() + "! " + "Are you still avaibile for dinner tonight" + "?"
 
 print(message_0)
 print(message_1)
