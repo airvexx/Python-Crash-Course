@@ -2,27 +2,50 @@
 ## insert & append
 
 guests = ['hagbard celine', 'robert anton wilson', 'israel regardie']
-message_0 = "Hey, " + guests[0].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_1 = "Hey, " + guests[1].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_2 = "Hey, " + guests[2].title() +"!" + " Are you availible for dinner party tonight" + "?"
 
-del guests[1]
+name = guests[0].title()
+print(name + ", please come to dinner")
 
-guests.insert(0, 'colin wilson')
-guests.insert(2, 'carl sagan')
-guests.append('richard feynman')
+name = guests[1].title()
+print(name + ", please come to dinner")
 
-message_0 = "Hey, " + guests[0].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_1 = "Hey, " + guests[1].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_2 = "Hey, " + guests[2].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_3 = "Hey, " + guests[3].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_4 = "Hey, " + guests[4].title() +"!" + " Are you availible for dinner party tonight" + "?"
+name = guests[2].title()
+print(name + ", please come to dinner")
 
+name =guests[1].title()
+print("\nSorry, " + name + " can't make it to dinner")
 
-print(message_0)
-print(message_1)
-print(message_2)
-print(message_3)
-print(message_4)
+del(guests[1])
+guests.insert(1, 'colin wilson')
 
-print('Unfortunately, Robert Anton Wilson cannot make it tonight, but I"ve found a bigger table!')
+name = guests[0].title()
+print("\n" + name + ", please come to dinner")
+
+name = guests[1].title()
+print(name + ", please come to dinner")
+
+name = guests[2].title()
+print(name + ", please come to dinner")
+
+print("\nWe got a larger table!")
+guests.insert(0, 'frida kahlo')
+guests.insert(2, 'aleister crowley')
+guests.append('JRR tolkein')
+
+name = guests[0].title()
+print(name + ", please come to dinner")
+
+name = guests[1].title()
+print(name + ", please come to dinner")
+
+name = guests[2].title()
+print(name + ", please come to dinner")
+
+name = guests[3].title()
+print(name + ", please come to dinner")
+
+name = guests[4].title()
+print(name + ", please come to dinner")
+
+name = guests[5].title()
+print(name + ", please come to dinner")

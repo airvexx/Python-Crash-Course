@@ -1,46 +1,73 @@
-## Airvexx
-## delete with pop and del
-
 guests = ['hagbard celine', 'robert anton wilson', 'israel regardie']
-message_0 = "Hey, " + guests[0].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_1 = "Hey, " + guests[1].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_2 = "Hey, " + guests[2].title() +"!" + " Are you availible for dinner party tonight" + "?"
 
-del guests[1]
+name = guests[0].title()
+print(name + ", please come to dinner")
 
-guests.insert(0, 'colin wilson')
-guests.insert(2, 'carl sagan')
-guests.append('richard feynman')
+name = guests[1].title()
+print(name + ", please come to dinner")
 
-message_0 = "Hey, " + guests[0].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_1 = "Hey, " + guests[1].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_2 = "Hey, " + guests[2].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_3 = "Hey, " + guests[3].title() +"!" + " Are you availible for dinner party tonight" + "?"
-message_4 = "Hey, " + guests[4].title() +"!" + " Are you availible for dinner party tonight" + "?"
+name = guests[2].title()
+print(name + ", please come to dinner")
 
+name =guests[1].title()
+print("\nSorry, " + name + " can't make it to dinner")
 
-print(message_0)
-print(message_1)
-print(message_2)
-print(message_3)
-print(message_4)
+del(guests[1])
+guests.insert(1, 'colin wilson')
 
-not_invited_1 = guests.pop(2)
-not_invited_2 = guests.pop(3)
-not_invited_3 = guests.pop(1)
+name = guests[0].title()
+print("\n" + name + ", please come to dinner")
 
-print(guests)
-print('I cannot invite you tonight ' + not_invited_1.title() + '.')
-print('I cannot invite you tonight ' + not_invited_2.title() + '.')
-print('I cannot invite you tonight ' + not_invited_3.title() + '.')
-print(guests)
+name = guests[1].title()
+print(name + ", please come to dinner")
 
-print('Are you still free tonight ' + guests[0].title() + "?")
-print('Are you still free tonight ' + guests[1].title() + "?")
+name = guests[2].title()
+print(name + ", please come to dinner")
 
+print("\nWe got a larger table!")
+guests.insert(0, 'frida kahlo')
+guests.insert(2, 'aleister crowley')
+guests.append('JRR tolkein')
 
-print('Unfortunately, I can only invite two of you tonight.')
+name = guests[0].title()
+print(name + ", please come to dinner")
 
-del guests[0]
-del guests[-0]
+name = guests[1].title()
+print(name + ", please come to dinner")
+
+name = guests[2].title()
+print(name + ", please come to dinner")
+
+name = guests[3].title()
+print(name + ", please come to dinner")
+
+name = guests[4].title()
+print(name + ", please come to dinner")
+
+name = guests[5].title()
+print(name + ", please come to dinner")
+
+print("\nSorry, we can only invite two people to dinner.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests[0].title()
+print(name + ", please come to dinner")
+
+name = guests[1].title()
+print(name + ", please come to dinner.")
+
+del(guests[1])
+del(guests[0])
+
 print(guests)
